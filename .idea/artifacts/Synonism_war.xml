@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Synonism:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Synonism</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Synonism-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Synonism:war exploded" />
+    </root>
+  </artifact>
+</component>
