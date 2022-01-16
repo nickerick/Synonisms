@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #66ADFF;
+}
+
+@font-face {
+    font-family: mindboggle;
+    src: url('fonts/MindBoggleDemoRegular-nRrEO.otf');
+}
+
+/* Cornflowerblue also looks nice */
+
+h1 {
+    justify-content: center;
+    align-content: center;
+}
+
+img.resize {
+    max-width: 45%;
+    max-height: 45%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#searchbox {
+    width: 50%;
+    margin: auto;
+}
+
+#searchbox input, button {
+    border: 1px solid black;
+    border-radius: 0px;
+    font: 14px;
+    background: white;
+}
+
+#searchbox input {
+    width: 80%;
+    padding: 1em;
+}
+
+#searchbox input:hover {
+    opacity: .92;
+}
+
+#searchbox button:hover {
+    opacity: .93;
+}
+
+#searchbox button {
+    width: 20%;
+    padding: 0.55em;
+    background: #FFD800;
+    float: right;
+    border-left: 0px;
+    font-size: 1.15em;
+    font-weight: lighter;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: extra-expanded;
+}
+
+.divider {
+    margin-top: 10em;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.response {
+    margin: auto;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
