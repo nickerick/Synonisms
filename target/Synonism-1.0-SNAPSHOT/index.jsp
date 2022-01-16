@@ -3,25 +3,37 @@
 <html>
 <head>
     <title>Synonisms</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h1><%= "Synonisms" %></h1>
 
-<form action="/" method="post">
+    <div>
 
-    <div class="grid grid-cols-2 gap-4 my-5 mx-8">
-
-        <label for="userInput" class="text-xl flex items-center">User Input: <span class="text-gray-500 mx-1">$</span></label>
-        <input type="text" id="userInput" name="userInput" value=" ${userInput}" class="w-full p-1 border-2 placeholder-blue-800 border-blue-700 appearance-none rounded-lg focus:outline-none focus:ring-2">
+        <img src="synlogo3.png" class="center resize">
 
     </div>
 
-    <button type="submit" class="bg-blue-300 text-xl font-semibold px-4 py-1 rounded-lg hover:bg-blue-800 hover:text-white">Synomize Me</button><br><br>
+    <div class="divider">
 
-    <p class="text-3xl font-mono text-green-600">Result: ${returnString}</p>
+        <form action="/" method="post">
 
-</form>
+            <div class="" id="searchbox">
+                
+                <input type="text" id="userInput" name="userInput" value=" ${userInput}" placeholder="Enter text here...">
+                <button type="submit">Synomize Me</button>
 
+            </div>
 
-</body>
+            <div class="divider">
+
+                <p class="response">${returnString}</p>
+
+            </div>
+
+        </form>
+
+    </div>
+
+<script src="assets/js/bootstrap.bundle-5.0.0.alpha-min.js"></script></body>
 </html>
