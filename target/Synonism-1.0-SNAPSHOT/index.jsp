@@ -19,7 +19,7 @@
         <form action="/" method="post">
 
             <div class="" id="searchbox">
-                
+
                 <input type="text" id="userInput" name="userInput" value=" ${userInput}" placeholder="Enter text here...">
                 <button type="submit">Synomize Me</button>
 
