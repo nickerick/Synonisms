@@ -19,7 +19,7 @@ public class GetAPI {
         try {
             response = Unirest.get(realUrl)
                     .header("x-rapidapi-host", "wordsapiv1.p.rapidapi.com")
-                    .header("x-rapidapi-key", "ce2ce25a1fmsh83df368bb82adcap1fe81ajsndfa068e8b734")
+                    .header("x-rapidapi-key", "APIKEY")
                     .asString();
         } catch (Exception e){
             System.out.println("Error connecting.");
