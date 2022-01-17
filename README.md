@@ -5,7 +5,7 @@ Link to longer youtube demo.
 
 This web app is an active project designed to be a gag. User types in a phrase or sentence and computer will return a modified version. Sometimes it's funny, sometimes it's serious, sometimes its out control - it truly depends on the words you give it. 
 
-Here's a mini demo
+### Mini demo
 
 ![](https://github.com/nickerick/Synonisms/blob/master/gif2.gif)
 
