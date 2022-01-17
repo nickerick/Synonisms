@@ -1,7 +1,7 @@
 # Synonisms
 ## Web application to spice up your words!
 
-Link to longer youtube demo.
+Youtube Demo: https://youtu.be/lCHetGW_rWE
 
 This web app is an active project designed to be a gag. User types in a phrase or sentence and computer will return a modified version. Sometimes it's funny, sometimes it's serious, sometimes its out control - it truly depends on the words you give it. 
 
